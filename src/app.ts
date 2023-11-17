@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get("/", (req: Request, res: Response) => {
-  res.send("Welcome To Book Catalog Server");
+  res.send("Welcome To Betafore Server");
 });
 app.use("/api/v1", routes);
 
