@@ -39,7 +39,6 @@ Please follow the below instructions to run this repository on your local machin
 
 4. Install dependencies
 
-
    ```sh
    yarn
 
@@ -84,5 +83,8 @@ Please follow the below instructions to run this repository on your local machin
 - Route: https://betafore-task-backend.vercel.app/api/v1/my-profile (GET)
 - Route: https://betafore-task-backend.vercel.app/api/v1/my-profile (PATCH)
 
+### Payment
+
+- Route: https://betafore-task-backend.vercel.app/api/v1/payment/create-payment-intent (POST)
 
 ## THANKS
