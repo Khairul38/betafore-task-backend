@@ -30,6 +30,8 @@ Please follow the below instructions to run this repository on your local machin
 
    DATABASE_URL="mongodb+srv://<username>:<password>@cluster0.mnkod.mongodb.net/?retryWrites=true&w=majority"
 
+   STRIPE_SECRET=""
+
    BCRYPT_SALT_ROUNDS=12
    JWT_SECRET='jwt-secret'
    JWT_EXPIRES_IN=1d
